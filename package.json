@@ -1,0 +1,28 @@
+{
+  "name": "userregistrationform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhartendu-Pant/nodeJsRegistration.git"
+  },
+  "author": "Bhartendu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhartendu-Pant/nodeJsRegistration/issues"
+  },
+  "homepage": "https://github.com/Bhartendu-Pant/nodeJsRegistration#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
